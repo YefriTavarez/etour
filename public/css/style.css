@@ -33,6 +33,10 @@ body {
   width: auto;
 }
 
+.navbar-inverse {
+  background-color: rgba(34,34,34,0.9);
+  border-color: rgba(8,8,8,0.8);
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -60,6 +64,11 @@ body {
   height: 500px;
 }
 
+@media (min-width: 768px){
+  .lead {
+    font-size: 18px;
+  }
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -92,6 +101,9 @@ body {
   letter-spacing: -1px;
 }
 
+.featurette-image{
+  /*box-shadow: 1px 2px 7px #333;*/
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -129,6 +141,6 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 40px;
   }
 }

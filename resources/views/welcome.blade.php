@@ -34,19 +34,21 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav pull-right">
-						<li><a href="#">Pricing</a></li>
-						<li><a href="#about">Reviews</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="/pricing">Pricing</a></li>
+						<li><a href="/reviews">Reviews</a></li>
+						<li><a href="/contact">Contact</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Popular Transfers <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
+								<li><a href="#">From Punta Cana Airport</a></li>
+								<li><a href="#">To Bayahibe (La Romana)</a></li>
+								<li><a href="#">To Bavaro Punta Cana</a></li>
+								<li><a href="#">To Casa de Campo</a></li>
 								<li role="separator" class="divider"></li>
-								<li class="dropdown-header">Nav header</li>
-								<li><a href="#">Separated link</a></li>
-								<li><a href="#">One more separated link</a></li>
+								<li><a href="#">From Las Americas Airport</a></li>
+								<li><a href="#">To Bayahibe (La Romana)</a></li>
+								<li><a href="#">To Bavaro Punta Cana</a></li>
+								<li><a href="#">To Casa de Campo</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -63,34 +65,31 @@
 	</ol>
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<img class="first-slide" src="img/sign.jpg" alt="First slide">
+			<img class="first-slide" src="img/sign.jpg" alt="Punta Cana Airport">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Don't wait no more</h1>
                     <p>Let us take care of your transportation while traveling to the Dominican Republic. You'll find your driver at the airport
                     standing up out of the arrival hall with sign with your name on it.</p>
-					<p><a href="#" class="btn btn-lg btn-primary" role="button">get started!</a></p>
 				</div>
 			</div>
 		</div>
 		<div class="item">
-			<img class="second-slide" src="img/door.jpg" alt="Second slide">
+			<img class="second-slide" src="img/door.jpg" alt="Best Service in the Dominican Republic">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Buy your transfer from the comfort of your house and forget about safety while traveling with us.</h1>
 					<p>It is well known that cabs are cheaper than any transfer in the Dominican Republic, but your security is first and more important than everything else.
 						Let eTour take care of your transportation while traveling to the Dominican Republic. </p>
-					<p><a class="btn btn-lg btn-primary" href="#" role="button">book it now!</a></p>
 				</div>
 			</div>
 		</div>
 		<div class="item">
-			<img class="third-slide" src="img/airplane.jpg" alt="Third slide">
+			<img class="third-slide" src="img/airplane.jpg" alt="Dominican Republic Transfers">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Travel secure with us</h1>
 					<p>From the moment you book a transfer with us you will feel that you're in good hands with us. Let our most experienced drivers to take care of you and your loved ones.</p>
-					<p><a class="btn btn-lg btn-primary" href="#" role="button">read more</a></p>
 				</div>
 			</div>
 		</div>
@@ -113,8 +112,18 @@
 			<p>Punta Cana is the airport that handle the most people in the DR. Let us take care of your transportation
 				at the best rate of the market. From Punta Cana airport to Bavaro hotels for USD $71 the Round Trip for a group from 1-6 people.
 			</p>
-			<p><a class="btn btn-default" href="#" role="button">Book Now!</a></p>
+			<p><a class="btn btn-default" href="#" role="button">book now!</a></p>
 		</div>
+
+		<div class="col-lg-4">
+			<img class="img-circle" src="img/la-romana-airport.jpg" alt="Generic placeholder image">
+			<h2>La Romana Airport</h2>
+			<p>Dominican Tour Express provides affordable and professional private airport transfers with luxurious and comfort
+				able vehicles. We have worked with most of the best companies in the market, the expert in touristic transportation, connecting
+				the main airports in the Dominican Republic by ground with any other destination in the country.</p>
+			<p><a class="btn btn-default" href="#" role="button">book now!</a></p>
+		</div>
+
 		<div class="col-lg-4">
 			<img class="img-circle" src="img/las-americas-airport.jpg" alt="Generic placeholder image">
 			<h2>Las Americas Airport</h2>
@@ -122,15 +131,7 @@
 				Travel from Las Americas airport to Bayahibe with the cheapest and most reliable transportation company
 				in the Dominicna Republic for only US $158 Dollars the Round Trip for a group of 1-6 people.
 			</p>
-			<p><a class="btn btn-default" href="#" role="button">Book Now!</a></p>
-		</div>
-		<div class="col-lg-4">
-			<img class="img-circle" src="img/la-romana-airport.jpg" alt="Generic placeholder image">
-			<h2>La Romana Airport</h2>
-			<p>Dominican Tour Express provides affordable and professional private airport transfers with luxurious and comfort
-				able vehicles. We have worked with most of the best companies in the market, the expert in touristic transportation, connecting
-				the main airports in the Dominican Republic by ground with any other destination in the country.</p>
-			<p><a class="btn btn-default" href="#" role="button">Book Now!</a></p>
+			<p><a class="btn btn-default" href="#" role="button">book now!</a></p>
 		</div>
 	</div>
 
@@ -140,23 +141,31 @@
 
 	<div class="row featurette">
 		<div class="col-md-7">
-			<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			<h2 class="featurette-heading">Punta Cana Airport transfers</h2>
+			<p class="lead">Dominican Tour Express provides affordable and professional private airport transfers with luxurious and comfortable vehicles. We have worked with most of the best companies in the market, the expert in touristic transportation, connecting the main airports in the Dominican Republic by ground with any other destination in the country.</p>
 		</div>
 		<div class="col-md-5">
-			<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+			<img class="featurette-image img-responsive center-block" src="img/beach-image.jpg" alt="La Romana Beach">
 		</div>
 	</div>
 
 	<hr class="featurette-divider">
 
 	<div class="row featurette">
-		<div class="col-md-7 col-md-push-5">
-			<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+		<div class="col-md-8 col-md-push-4">
+			<h2 class="featurette-heading"><span class="text-muted">Customers Testimonials</span></h2>
+			<p class="lead">I made a reservation with Dominican Tour Express well before actual trip to Iberostar La Romana resort. All negotiations were conducted with Yefri Tavarez and his responses were prompt and courteous. The rates he offered were among the lowest around.
+
+				Upon arrival at Punta Cana we easily found the driver, who helped us with the luggage. We were alone in a pretty new air conditioned van. The trip was a breeze. On a way back we used the same van and driver. He arrived at our hotel right on time.
+
+				We will be using this flawless service in the future. Very happy, this is the way transfers should be.</P>
+
+				<span>By Alex from United States</span>
+
+				<p><a href="/reviews" class="btn btn-default" role="button">Read More </a></p>
 		</div>
-		<div class="col-md-5 col-md-pull-7">
-			<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		<div class="col-md-4 col-md-pull-8">
+			<img style="box-shadow: none;" class="featurette-image img-responsive center-block" src="img/icon-user-default.png" alt="Customer Reviews">
 		</div>
 	</div>
 
@@ -164,11 +173,14 @@
 
 	<div class="row featurette">
 		<div class="col-md-7">
-			<h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			<h2 class="featurette-heading">DON'T HAVE A <span class="text-muted">PAYPAL</span> ACCOUNT?</h2>
+			<p class="lead">We at Dominican Tour Express are taking advantage of PayPal's industry-leading fraud and charge-back protection.
+				Pay with your PayPal account, and if you don't have one you can pay with your credit card and it's all always secure.
+				For your own security we don't file your credit card information in our system and it's under PayPal's terms and conditions.
+			</p>
 		</div>
 		<div class="col-md-5">
-			<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+			<img class="featurette-image img-responsive center-block" src="img/paypal.png" alt="Generic placeholder image">
 		</div>
 	</div>
 
@@ -176,7 +188,7 @@
 
 	<footer>
 		<p class="pull-right"><a href="#">Back to top</a></p>
-		<p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+		<p>&copy; {{ date("Y") }} eTour, SRL. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 	</footer>
 
 </div>
