@@ -33,22 +33,24 @@
 					</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav pull-right">
+					<ul class="nav navbar-nav">
+						<li><a href="/home">Home</a></li>
 						<li><a href="/pricing">Pricing</a></li>
 						<li><a href="/reviews">Reviews</a></li>
+						<li><a href="/faqs">FAQs</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Popular Transfers <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">From Punta Cana Airport</a></li>
-								<li><a href="#">To Bayahibe (La Romana)</a></li>
-								<li><a href="#">To Bavaro Punta Cana</a></li>
-								<li><a href="#">To Casa de Campo</a></li>
+								<li><a href="pricing/?from=Punta Cana Airport&to=Bayahibe / La Romana city">To Bayahibe (La Romana)</a></li>
+								<li><a href="pricing/?from=Punta Cana Airport&to=Punta Cana / Bavaro">To Bavaro Punta Cana</a></li>
+								<li><a href="pricing/?from=Punta Cana Airport&to=Casa de campo">To Casa de Campo</a></li>
 								<li role="separator" class="divider"></li>
 								<li><a href="#">From Las Americas Airport</a></li>
-								<li><a href="#">To Bayahibe (La Romana)</a></li>
-								<li><a href="#">To Bavaro Punta Cana</a></li>
-								<li><a href="#">To Casa de Campo</a></li>
+								<li><a href="pricing/?from=Las Americas Airport&to=Bayahibe / La Romana city">To Bayahibe (La Romana)</a></li>
+								<li><a href="pricing/?from=Las Americas Airport&to=Punta Cana / Bavaro">To Bavaro Punta Cana</a></li>
+								<li><a href="pricing/?from=Las Americas Airport&to=Casa de campo">To Casa de Campo</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -69,13 +71,12 @@
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Don't wait no more</h1>
-                    <p>Let us take care of your transportation while traveling to the Dominican Republic. You'll find your driver at the airport
-                    standing up out of the arrival hall with sign with your name on it.</p>
+                    <p>You'll find your driver at the airport standing up out of the arrival hall with sign with your name on it.</p>
 				</div>
 			</div>
 		</div>
 		<div class="item">
-			<img class="second-slide" src="img/door.jpg" alt="Best Service in the Dominican Republic">
+			<img class="second-slide" src="img/airplane.jpg" alt="Best Service in the Dominican Republic">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Buy your transfer from the comfort of your house and forget about safety while traveling with us.</h1>
@@ -85,7 +86,7 @@
 			</div>
 		</div>
 		<div class="item">
-			<img class="third-slide" src="img/airplane.jpg" alt="Dominican Republic Transfers">
+			<img class="third-slide" src="img/door.jpg" alt="Dominican Republic Transfers">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Travel secure with us</h1>
@@ -162,10 +163,10 @@
 
 				<span>By Alex from United States</span>
 
-				<p><a href="/reviews" class="btn btn-default" role="button">Read More </a></p>
+				<!--<p><a href="/reviews" class="btn btn-default" role="button">Read More </a></p>-->
 		</div>
 		<div class="col-md-4 col-md-pull-8">
-			<img style="box-shadow: none;" class="featurette-image img-responsive center-block" src="img/icon-user-default.png" alt="Customer Reviews">
+			<img class="featurette-image img-responsive center-block" src="img/icon-user-default.png" alt="Customer Reviews">
 		</div>
 	</div>
 
@@ -180,7 +181,7 @@
 			</p>
 		</div>
 		<div class="col-md-5">
-			<img class="featurette-image img-responsive center-block" src="img/paypal.png" alt="Generic placeholder image">
+			<img style="margin-top: 20px" class="featurette-image img-responsive center-block" src="img/paypal.png" alt="Generic placeholder image">
 		</div>
 	</div>
 
